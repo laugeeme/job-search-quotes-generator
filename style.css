@@ -1,0 +1,32 @@
+header {
+  padding: 2em;
+  background-color: #00aeff;
+  margin-top: 2em;
+  text-align: center;
+  color: #fff;
+}
+
+.quote {
+  font-size: 2em;
+}
+
+.btn-large {
+  margin: 0.5em;
+}
+
+.card {
+  text-align: center;
+  width: 45em;
+  font-style: italic;
+}
+
+.new-quote-button {
+  background-color: grey;
+  border-color: black;
+  color: white;
+}
+
+#button:hover {
+  background-color: yellow;
+  color: black;
+}

@@ -1,0 +1,50 @@
+'use strict';
+
+const quotes = [
+  'If the wind will not serve, take to the oars.',
+  'In the middle of difficulty lies opportunity.',
+  'If you can dream it, you can do it.',
+  'The harder I practice, the luckier I get.',
+  'Winning isn’t everything, but wanting to win is.',
+  'When one door closes, another opens; but we often look so long and so regretfully upon the closed door that we do not see the one which has opened for us.',
+  "If opportunity doesn't knock, then build a door.",
+  'It always seems impossible until it’s done.',
+  'If you fell down yesterday, stand up today.',
+  'It isn’t the mountains ahead to climb that wear you out; it’s the pebble in your shoe.',
+  'Start where you are. Use what you have. Do what you can.',
+  'Remember that not getting what you want is sometimes a wonderful stroke of luck.',
+  'When things go wrong, don’t go with them.',
+  "There's no secret about success. Did you ever know a successful man who didn't tell you about it?.",
+  'Age is of no importance unless you’re a cheese.',
+  "You can't have everything. Where would you put it?.",
+  'You don’t have to be great to start, but you so have to start to be great.',
+  'Nobody can go back and start a new beginning, but anyone can start today and make a new ending.',
+  "If your ship doesn't come in, swim out to meet it.",
+  "Don't fall before you're pushed",
+  'The time to repair the roof is when the sun is shining.',
+  'Positive things happen to positive people.',
+  'If you want the rainbow, you gotta put up with the rain.',
+  'Even if you fall on your face, you’re still moving forward.',
+  'Things do not happen. Things are made to happen.',
+  'It is a terrible thing to see and have no vision.',
+  'Keep your face to the sunshine and you cannot see a shadow.',
+  "I can't change the direction of the wind, but I can adjust my sails to always reach my destination.",
+  'If you chase two rabbits, both will escape.',
+  'The road to success is lined with many tempting parking spaces.',
+  'You can never quit. Winners never quit, and quitters never win.',
+  'Love the life you live. Live the life you love.',
+  'The future depends on what you do today.',
+  'You miss 100% of the shots you don’t take.',
+  'Take risks: if you win, you will be happy; if you lose, you will be wise.',
+  "Dreams are extremely important. You can't do it unless you imagine it.",
+  'A person who never made a mistake never tried anything new.',
+  'The results you achieve will be in direct proportion to the effort you apply.',
+  "Start by doing what's necessary, then what's possible, and suddenly you are doing the impossible.",
+  "I'm a great believer in luck, and I find the harder I work, the more I have of it.",
+  'If you fail to plan, then you plan to fail.',
+];
+
+function getQuote() {
+  let randomNumber = Math.floor(Math.random() * quotes.length);
+  document.getElementById('newQuoteSection').innerHTML = quotes[randomNumber];
+}
