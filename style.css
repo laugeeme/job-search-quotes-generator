@@ -1,18 +1,16 @@
-body{
-    background-color: rgb(16, 23, 44);
+body {
+  background-color: rgb(16, 23, 44);
 }
 
 header {
   padding: 2em;
-  background: rgb(34,193,195);
+  background: rgb(34, 193, 195);
   background: linear-gradient(0deg, rgb(7, 97, 98) 0%, rgb(32, 190, 211) 100%);
   margin-top: 3em;
   text-align: center;
   color: #fff;
   border-radius: 0.2em;
   text-shadow: 0.5em 0.5em 0.5em rgb(53, 54, 53);
-
-  
 }
 
 .quote {
